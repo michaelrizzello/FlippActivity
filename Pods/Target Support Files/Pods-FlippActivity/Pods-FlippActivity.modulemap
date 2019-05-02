@@ -1,0 +1,6 @@
+framework module Pods_FlippActivity {
+  umbrella header "Pods-FlippActivity-umbrella.h"
+
+  export *
+  module * { export * }
+}

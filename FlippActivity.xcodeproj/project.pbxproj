@@ -1,0 +1,811 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		034D858F0385DF48B36F2E41 /* Pods_FlippActivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6594BDA4B18B969BE4BDB259 /* Pods_FlippActivity.framework */; };
+		8F7509D1227A2F48000CA646 /* MainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7509D0227A2F48000CA646 /* MainNavigationController.swift */; };
+		8F7509D2227A2F4B000CA646 /* MainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7509D0227A2F48000CA646 /* MainNavigationController.swift */; };
+		8F7509D3227A2F4B000CA646 /* MainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7509D0227A2F48000CA646 /* MainNavigationController.swift */; };
+		8F864635227A186700FE204E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F864634227A186700FE204E /* AppDelegate.swift */; };
+		8F864637227A186700FE204E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F864636227A186700FE204E /* ViewController.swift */; };
+		8F86463A227A186700FE204E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F864638227A186700FE204E /* Main.storyboard */; };
+		8F86463D227A186700FE204E /* FlippActivity.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8F86463B227A186700FE204E /* FlippActivity.xcdatamodeld */; };
+		8F86463F227A186700FE204E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F86463E227A186700FE204E /* Assets.xcassets */; };
+		8F864642227A186700FE204E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F864640227A186700FE204E /* LaunchScreen.storyboard */; };
+		8F86464D227A186800FE204E /* FlippActivityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F86464C227A186800FE204E /* FlippActivityTests.swift */; };
+		8F864658227A186800FE204E /* FlippActivityUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F864657227A186800FE204E /* FlippActivityUITests.swift */; };
+		8F86466A227A193000FE204E /* BaseListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F864669227A193000FE204E /* BaseListView.swift */; };
+		8F86466B227A193000FE204E /* BaseListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F864669227A193000FE204E /* BaseListView.swift */; };
+		8F86466C227A193000FE204E /* BaseListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F864669227A193000FE204E /* BaseListView.swift */; };
+		8F86466E227A1B4A00FE204E /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F86466D227A1B4A00FE204E /* Car.swift */; };
+		8F86466F227A1B4A00FE204E /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F86466D227A1B4A00FE204E /* Car.swift */; };
+		8F864670227A1B4A00FE204E /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F86466D227A1B4A00FE204E /* Car.swift */; };
+		8F864678227A1CC900FE204E /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F864677227A1CC900FE204E /* BaseViewController.swift */; };
+		8F864679227A1CC900FE204E /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F864677227A1CC900FE204E /* BaseViewController.swift */; };
+		8F86467A227A1CC900FE204E /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F864677227A1CC900FE204E /* BaseViewController.swift */; };
+		8F86467C227A214A00FE204E /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F86467B227A214A00FE204E /* DetailViewController.swift */; };
+		8F86467D227A214A00FE204E /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F86467B227A214A00FE204E /* DetailViewController.swift */; };
+		8F86467E227A214A00FE204E /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F86467B227A214A00FE204E /* DetailViewController.swift */; };
+		8F864680227A215500FE204E /* DetailImageViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F86467F227A215500FE204E /* DetailImageViewCell.swift */; };
+		8F864681227A215500FE204E /* DetailImageViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F86467F227A215500FE204E /* DetailImageViewCell.swift */; };
+		8F864682227A215500FE204E /* DetailImageViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F86467F227A215500FE204E /* DetailImageViewCell.swift */; };
+		8FC6A0E4227A392B00236FE0 /* CarService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC6A0E3227A392B00236FE0 /* CarService.swift */; };
+		8FC6A0E7227A3A0A00236FE0 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC6A0E6227A3A0A00236FE0 /* APIClient.swift */; };
+		8FC6A0E8227A3A0A00236FE0 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC6A0E6227A3A0A00236FE0 /* APIClient.swift */; };
+		8FC6A0E9227A3A0A00236FE0 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC6A0E6227A3A0A00236FE0 /* APIClient.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8F864649227A186800FE204E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F864629227A186700FE204E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F864630227A186700FE204E;
+			remoteInfo = FlippActivity;
+		};
+		8F864654227A186800FE204E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F864629227A186700FE204E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F864630227A186700FE204E;
+			remoteInfo = FlippActivity;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6594BDA4B18B969BE4BDB259 /* Pods_FlippActivity.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlippActivity.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F7509D0227A2F48000CA646 /* MainNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavigationController.swift; sourceTree = "<group>"; };
+		8F864631227A186700FE204E /* FlippActivity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlippActivity.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F864634227A186700FE204E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8F864636227A186700FE204E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8F864639227A186700FE204E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8F86463C227A186700FE204E /* FlippActivity.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FlippActivity.xcdatamodel; sourceTree = "<group>"; };
+		8F86463E227A186700FE204E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8F864641227A186700FE204E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8F864643227A186700FE204E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F864648227A186800FE204E /* FlippActivityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlippActivityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F86464C227A186800FE204E /* FlippActivityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlippActivityTests.swift; sourceTree = "<group>"; };
+		8F86464E227A186800FE204E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F864653227A186800FE204E /* FlippActivityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlippActivityUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F864657227A186800FE204E /* FlippActivityUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlippActivityUITests.swift; sourceTree = "<group>"; };
+		8F864659227A186800FE204E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F864669227A193000FE204E /* BaseListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseListView.swift; sourceTree = "<group>"; };
+		8F86466D227A1B4A00FE204E /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		8F864677227A1CC900FE204E /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		8F86467B227A214A00FE204E /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		8F86467F227A215500FE204E /* DetailImageViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailImageViewCell.swift; sourceTree = "<group>"; };
+		8FC6A0E3227A392B00236FE0 /* CarService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarService.swift; sourceTree = "<group>"; };
+		8FC6A0E6227A3A0A00236FE0 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		C587FE8CA757871F67C5BC73 /* Pods-FlippActivity.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlippActivity.release.xcconfig"; path = "Target Support Files/Pods-FlippActivity/Pods-FlippActivity.release.xcconfig"; sourceTree = "<group>"; };
+		F64D549DE715EB096CF0E240 /* Pods-FlippActivity.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlippActivity.debug.xcconfig"; path = "Target Support Files/Pods-FlippActivity/Pods-FlippActivity.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8F86462E227A186700FE204E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				034D858F0385DF48B36F2E41 /* Pods_FlippActivity.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F864645227A186800FE204E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F864650227A186800FE204E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32CA69333B51CD161DFD2C68 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6594BDA4B18B969BE4BDB259 /* Pods_FlippActivity.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8F864628227A186700FE204E = {
+			isa = PBXGroup;
+			children = (
+				8F864633227A186700FE204E /* FlippActivity */,
+				8F86464B227A186800FE204E /* FlippActivityTests */,
+				8F864656227A186800FE204E /* FlippActivityUITests */,
+				8F864632227A186700FE204E /* Products */,
+				F72BE351EDCCCEFCC2DE7A94 /* Pods */,
+				32CA69333B51CD161DFD2C68 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8F864632227A186700FE204E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8F864631227A186700FE204E /* FlippActivity.app */,
+				8F864648227A186800FE204E /* FlippActivityTests.xctest */,
+				8F864653227A186800FE204E /* FlippActivityUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8F864633227A186700FE204E /* FlippActivity */ = {
+			isa = PBXGroup;
+			children = (
+				8FC6A0E2227A38AA00236FE0 /* Middleware */,
+				8F864676227A1C7F00FE204E /* BaseViews */,
+				8F864667227A18D900FE204E /* Controllers */,
+				8F864666227A18D200FE204E /* Models */,
+				8F864665227A18BA00FE204E /* Delegate */,
+				8F864638227A186700FE204E /* Main.storyboard */,
+				8F86463E227A186700FE204E /* Assets.xcassets */,
+				8F864640227A186700FE204E /* LaunchScreen.storyboard */,
+				8F864643227A186700FE204E /* Info.plist */,
+				8F86463B227A186700FE204E /* FlippActivity.xcdatamodeld */,
+			);
+			path = FlippActivity;
+			sourceTree = "<group>";
+		};
+		8F86464B227A186800FE204E /* FlippActivityTests */ = {
+			isa = PBXGroup;
+			children = (
+				8F86464C227A186800FE204E /* FlippActivityTests.swift */,
+				8F86464E227A186800FE204E /* Info.plist */,
+			);
+			path = FlippActivityTests;
+			sourceTree = "<group>";
+		};
+		8F864656227A186800FE204E /* FlippActivityUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8F864657227A186800FE204E /* FlippActivityUITests.swift */,
+				8F864659227A186800FE204E /* Info.plist */,
+			);
+			path = FlippActivityUITests;
+			sourceTree = "<group>";
+		};
+		8F864665227A18BA00FE204E /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				8F864634227A186700FE204E /* AppDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		8F864666227A18D200FE204E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8F86466D227A1B4A00FE204E /* Car.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8F864667227A18D900FE204E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8F864671227A1C3E00FE204E /* DetailView */,
+				8F864668227A190C00FE204E /* MainView */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		8F864668227A190C00FE204E /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				8F864636227A186700FE204E /* ViewController.swift */,
+			);
+			path = MainView;
+			sourceTree = "<group>";
+		};
+		8F864671227A1C3E00FE204E /* DetailView */ = {
+			isa = PBXGroup;
+			children = (
+				8F86467B227A214A00FE204E /* DetailViewController.swift */,
+				8F86467F227A215500FE204E /* DetailImageViewCell.swift */,
+			);
+			path = DetailView;
+			sourceTree = "<group>";
+		};
+		8F864676227A1C7F00FE204E /* BaseViews */ = {
+			isa = PBXGroup;
+			children = (
+				8F864669227A193000FE204E /* BaseListView.swift */,
+				8F864677227A1CC900FE204E /* BaseViewController.swift */,
+				8F7509D0227A2F48000CA646 /* MainNavigationController.swift */,
+			);
+			path = BaseViews;
+			sourceTree = "<group>";
+		};
+		8FC6A0E2227A38AA00236FE0 /* Middleware */ = {
+			isa = PBXGroup;
+			children = (
+				8FC6A0E5227A39F900236FE0 /* Services */,
+				8FC6A0E6227A3A0A00236FE0 /* APIClient.swift */,
+			);
+			path = Middleware;
+			sourceTree = "<group>";
+		};
+		8FC6A0E5227A39F900236FE0 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				8FC6A0E3227A392B00236FE0 /* CarService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		F72BE351EDCCCEFCC2DE7A94 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F64D549DE715EB096CF0E240 /* Pods-FlippActivity.debug.xcconfig */,
+				C587FE8CA757871F67C5BC73 /* Pods-FlippActivity.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8F864630227A186700FE204E /* FlippActivity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F86465C227A186800FE204E /* Build configuration list for PBXNativeTarget "FlippActivity" */;
+			buildPhases = (
+				F1F8618C7A215E2A6E2539E2 /* [CP] Check Pods Manifest.lock */,
+				8F86462D227A186700FE204E /* Sources */,
+				8F86462E227A186700FE204E /* Frameworks */,
+				8F86462F227A186700FE204E /* Resources */,
+				447317036BB5F1C0191D0BA9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlippActivity;
+			productName = FlippActivity;
+			productReference = 8F864631227A186700FE204E /* FlippActivity.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8F864647227A186800FE204E /* FlippActivityTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F86465F227A186800FE204E /* Build configuration list for PBXNativeTarget "FlippActivityTests" */;
+			buildPhases = (
+				8F864644227A186800FE204E /* Sources */,
+				8F864645227A186800FE204E /* Frameworks */,
+				8F864646227A186800FE204E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F86464A227A186800FE204E /* PBXTargetDependency */,
+			);
+			name = FlippActivityTests;
+			productName = FlippActivityTests;
+			productReference = 8F864648227A186800FE204E /* FlippActivityTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8F864652227A186800FE204E /* FlippActivityUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F864662227A186800FE204E /* Build configuration list for PBXNativeTarget "FlippActivityUITests" */;
+			buildPhases = (
+				8F86464F227A186800FE204E /* Sources */,
+				8F864650227A186800FE204E /* Frameworks */,
+				8F864651227A186800FE204E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F864655227A186800FE204E /* PBXTargetDependency */,
+			);
+			name = FlippActivityUITests;
+			productName = FlippActivityUITests;
+			productReference = 8F864653227A186800FE204E /* FlippActivityUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8F864629227A186700FE204E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Rizzello, Michael";
+				TargetAttributes = {
+					8F864630227A186700FE204E = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					8F864647227A186800FE204E = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 8F864630227A186700FE204E;
+					};
+					8F864652227A186800FE204E = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 8F864630227A186700FE204E;
+					};
+				};
+			};
+			buildConfigurationList = 8F86462C227A186700FE204E /* Build configuration list for PBXProject "FlippActivity" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8F864628227A186700FE204E;
+			productRefGroup = 8F864632227A186700FE204E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F864630227A186700FE204E /* FlippActivity */,
+				8F864647227A186800FE204E /* FlippActivityTests */,
+				8F864652227A186800FE204E /* FlippActivityUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8F86462F227A186700FE204E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F864642227A186700FE204E /* LaunchScreen.storyboard in Resources */,
+				8F86463F227A186700FE204E /* Assets.xcassets in Resources */,
+				8F86463A227A186700FE204E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F864646227A186800FE204E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F864651227A186800FE204E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		447317036BB5F1C0191D0BA9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FlippActivity/Pods-FlippActivity-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FLAnimatedImage/FLAnimatedImage.framework",
+				"${BUILT_PRODUCTS_DIR}/PINCache/PINCache.framework",
+				"${BUILT_PRODUCTS_DIR}/PINRemoteImage/PINRemoteImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FLAnimatedImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PINCache.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PINRemoteImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FlippActivity/Pods-FlippActivity-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1F8618C7A215E2A6E2539E2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FlippActivity-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8F86462D227A186700FE204E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F7509D1227A2F48000CA646 /* MainNavigationController.swift in Sources */,
+				8F864637227A186700FE204E /* ViewController.swift in Sources */,
+				8FC6A0E4227A392B00236FE0 /* CarService.swift in Sources */,
+				8F864680227A215500FE204E /* DetailImageViewCell.swift in Sources */,
+				8F86466A227A193000FE204E /* BaseListView.swift in Sources */,
+				8FC6A0E7227A3A0A00236FE0 /* APIClient.swift in Sources */,
+				8F86466E227A1B4A00FE204E /* Car.swift in Sources */,
+				8F864635227A186700FE204E /* AppDelegate.swift in Sources */,
+				8F86463D227A186700FE204E /* FlippActivity.xcdatamodeld in Sources */,
+				8F864678227A1CC900FE204E /* BaseViewController.swift in Sources */,
+				8F86467C227A214A00FE204E /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F864644227A186800FE204E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F86464D227A186800FE204E /* FlippActivityTests.swift in Sources */,
+				8F864679227A1CC900FE204E /* BaseViewController.swift in Sources */,
+				8F86467D227A214A00FE204E /* DetailViewController.swift in Sources */,
+				8FC6A0E8227A3A0A00236FE0 /* APIClient.swift in Sources */,
+				8F86466B227A193000FE204E /* BaseListView.swift in Sources */,
+				8F7509D2227A2F4B000CA646 /* MainNavigationController.swift in Sources */,
+				8F86466F227A1B4A00FE204E /* Car.swift in Sources */,
+				8F864681227A215500FE204E /* DetailImageViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F86464F227A186800FE204E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F864658227A186800FE204E /* FlippActivityUITests.swift in Sources */,
+				8F86467A227A1CC900FE204E /* BaseViewController.swift in Sources */,
+				8F86467E227A214A00FE204E /* DetailViewController.swift in Sources */,
+				8FC6A0E9227A3A0A00236FE0 /* APIClient.swift in Sources */,
+				8F86466C227A193000FE204E /* BaseListView.swift in Sources */,
+				8F7509D3227A2F4B000CA646 /* MainNavigationController.swift in Sources */,
+				8F864670227A1B4A00FE204E /* Car.swift in Sources */,
+				8F864682227A215500FE204E /* DetailImageViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8F86464A227A186800FE204E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F864630227A186700FE204E /* FlippActivity */;
+			targetProxy = 8F864649227A186800FE204E /* PBXContainerItemProxy */;
+		};
+		8F864655227A186800FE204E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F864630227A186700FE204E /* FlippActivity */;
+			targetProxy = 8F864654227A186800FE204E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8F864638227A186700FE204E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F864639227A186700FE204E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8F864640227A186700FE204E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F864641227A186700FE204E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8F86465A227A186800FE204E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8F86465B227A186800FE204E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8F86465D227A186800FE204E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F64D549DE715EB096CF0E240 /* Pods-FlippActivity.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H6FP4L2W3V;
+				INFOPLIST_FILE = FlippActivity/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mikerizzello.FlippActivity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8F86465E227A186800FE204E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C587FE8CA757871F67C5BC73 /* Pods-FlippActivity.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H6FP4L2W3V;
+				INFOPLIST_FILE = FlippActivity/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mikerizzello.FlippActivity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8F864660227A186800FE204E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H6FP4L2W3V;
+				INFOPLIST_FILE = FlippActivityTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mikerizzello.FlippActivityTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlippActivity.app/FlippActivity";
+			};
+			name = Debug;
+		};
+		8F864661227A186800FE204E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H6FP4L2W3V;
+				INFOPLIST_FILE = FlippActivityTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mikerizzello.FlippActivityTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlippActivity.app/FlippActivity";
+			};
+			name = Release;
+		};
+		8F864663227A186800FE204E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H6FP4L2W3V;
+				INFOPLIST_FILE = FlippActivityUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mikerizzello.FlippActivityUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FlippActivity;
+			};
+			name = Debug;
+		};
+		8F864664227A186800FE204E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H6FP4L2W3V;
+				INFOPLIST_FILE = FlippActivityUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mikerizzello.FlippActivityUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FlippActivity;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8F86462C227A186700FE204E /* Build configuration list for PBXProject "FlippActivity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F86465A227A186800FE204E /* Debug */,
+				8F86465B227A186800FE204E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F86465C227A186800FE204E /* Build configuration list for PBXNativeTarget "FlippActivity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F86465D227A186800FE204E /* Debug */,
+				8F86465E227A186800FE204E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F86465F227A186800FE204E /* Build configuration list for PBXNativeTarget "FlippActivityTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F864660227A186800FE204E /* Debug */,
+				8F864661227A186800FE204E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F864662227A186800FE204E /* Build configuration list for PBXNativeTarget "FlippActivityUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F864663227A186800FE204E /* Debug */,
+				8F864664227A186800FE204E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8F86463B227A186700FE204E /* FlippActivity.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8F86463C227A186700FE204E /* FlippActivity.xcdatamodel */,
+			);
+			currentVersion = 8F86463C227A186700FE204E /* FlippActivity.xcdatamodel */;
+			path = FlippActivity.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8F864629227A186700FE204E /* Project object */;
+}
