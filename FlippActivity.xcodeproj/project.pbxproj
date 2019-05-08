@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		034D858F0385DF48B36F2E41 /* Pods_FlippActivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6594BDA4B18B969BE4BDB259 /* Pods_FlippActivity.framework */; };
+		8F3E1E662281F5E90053D4A5 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3E1E652281F5E90053D4A5 /* DataManager.swift */; };
+		8F3E1E672281F5E90053D4A5 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3E1E652281F5E90053D4A5 /* DataManager.swift */; };
+		8F3E1E682281F5E90053D4A5 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3E1E652281F5E90053D4A5 /* DataManager.swift */; };
 		8F7509D1227A2F48000CA646 /* MainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7509D0227A2F48000CA646 /* MainNavigationController.swift */; };
 		8F7509D2227A2F4B000CA646 /* MainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7509D0227A2F48000CA646 /* MainNavigationController.swift */; };
 		8F7509D3227A2F4B000CA646 /* MainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7509D0227A2F48000CA646 /* MainNavigationController.swift */; };
@@ -34,6 +37,14 @@
 		8F864680227A215500FE204E /* DetailImageViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F86467F227A215500FE204E /* DetailImageViewCell.swift */; };
 		8F864681227A215500FE204E /* DetailImageViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F86467F227A215500FE204E /* DetailImageViewCell.swift */; };
 		8F864682227A215500FE204E /* DetailImageViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F86467F227A215500FE204E /* DetailImageViewCell.swift */; };
+		8FBF35A1228353EF0023E07F /* MainCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FBF35A0228353EF0023E07F /* MainCell.swift */; };
+		8FBF35A2228353EF0023E07F /* MainCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FBF35A0228353EF0023E07F /* MainCell.swift */; };
+		8FBF35A3228353EF0023E07F /* MainCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FBF35A0228353EF0023E07F /* MainCell.swift */; };
+		8FC203BF228311C900847085 /* CarDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC203BE228311C900847085 /* CarDetails.swift */; };
+		8FC203C0228311C900847085 /* CarDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC203BE228311C900847085 /* CarDetails.swift */; };
+		8FC203C1228311C900847085 /* CarDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC203BE228311C900847085 /* CarDetails.swift */; };
+		8FC203C22283214000847085 /* CarService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC6A0E3227A392B00236FE0 /* CarService.swift */; };
+		8FC203C32283214000847085 /* CarService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC6A0E3227A392B00236FE0 /* CarService.swift */; };
 		8FC6A0E4227A392B00236FE0 /* CarService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC6A0E3227A392B00236FE0 /* CarService.swift */; };
 		8FC6A0E7227A3A0A00236FE0 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC6A0E6227A3A0A00236FE0 /* APIClient.swift */; };
 		8FC6A0E8227A3A0A00236FE0 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC6A0E6227A3A0A00236FE0 /* APIClient.swift */; };
@@ -59,6 +70,7 @@
 
 /* Begin PBXFileReference section */
 		6594BDA4B18B969BE4BDB259 /* Pods_FlippActivity.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlippActivity.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F3E1E652281F5E90053D4A5 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		8F7509D0227A2F48000CA646 /* MainNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavigationController.swift; sourceTree = "<group>"; };
 		8F864631227A186700FE204E /* FlippActivity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlippActivity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F864634227A186700FE204E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -79,6 +91,8 @@
 		8F864677227A1CC900FE204E /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		8F86467B227A214A00FE204E /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		8F86467F227A215500FE204E /* DetailImageViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailImageViewCell.swift; sourceTree = "<group>"; };
+		8FBF35A0228353EF0023E07F /* MainCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCell.swift; sourceTree = "<group>"; };
+		8FC203BE228311C900847085 /* CarDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarDetails.swift; sourceTree = "<group>"; };
 		8FC6A0E3227A392B00236FE0 /* CarService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarService.swift; sourceTree = "<group>"; };
 		8FC6A0E6227A3A0A00236FE0 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
 		C587FE8CA757871F67C5BC73 /* Pods-FlippActivity.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlippActivity.release.xcconfig"; path = "Target Support Files/Pods-FlippActivity/Pods-FlippActivity.release.xcconfig"; sourceTree = "<group>"; };
@@ -119,6 +133,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		8F3E1E642281F5CE0053D4A5 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				8F3E1E652281F5E90053D4A5 /* DataManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
 		8F864628227A186700FE204E = {
 			isa = PBXGroup;
 			children = (
@@ -144,6 +166,7 @@
 		8F864633227A186700FE204E /* FlippActivity */ = {
 			isa = PBXGroup;
 			children = (
+				8F3E1E642281F5CE0053D4A5 /* Managers */,
 				8FC6A0E2227A38AA00236FE0 /* Middleware */,
 				8F864676227A1C7F00FE204E /* BaseViews */,
 				8F864667227A18D900FE204E /* Controllers */,
@@ -188,6 +211,7 @@
 			isa = PBXGroup;
 			children = (
 				8F86466D227A1B4A00FE204E /* Car.swift */,
+				8FC203BE228311C900847085 /* CarDetails.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -205,6 +229,7 @@
 			isa = PBXGroup;
 			children = (
 				8F864636227A186700FE204E /* ViewController.swift */,
+				8FBF35A0228353EF0023E07F /* MainCell.swift */,
 			);
 			path = MainView;
 			sourceTree = "<group>";
@@ -439,11 +464,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8F7509D1227A2F48000CA646 /* MainNavigationController.swift in Sources */,
+				8FC203BF228311C900847085 /* CarDetails.swift in Sources */,
+				8F3E1E662281F5E90053D4A5 /* DataManager.swift in Sources */,
 				8F864637227A186700FE204E /* ViewController.swift in Sources */,
 				8FC6A0E4227A392B00236FE0 /* CarService.swift in Sources */,
 				8F864680227A215500FE204E /* DetailImageViewCell.swift in Sources */,
 				8F86466A227A193000FE204E /* BaseListView.swift in Sources */,
 				8FC6A0E7227A3A0A00236FE0 /* APIClient.swift in Sources */,
+				8FBF35A1228353EF0023E07F /* MainCell.swift in Sources */,
 				8F86466E227A1B4A00FE204E /* Car.swift in Sources */,
 				8F864635227A186700FE204E /* AppDelegate.swift in Sources */,
 				8F86463D227A186700FE204E /* FlippActivity.xcdatamodeld in Sources */,
@@ -457,12 +485,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				8F86464D227A186800FE204E /* FlippActivityTests.swift in Sources */,
+				8FC203C0228311C900847085 /* CarDetails.swift in Sources */,
+				8FBF35A2228353EF0023E07F /* MainCell.swift in Sources */,
 				8F864679227A1CC900FE204E /* BaseViewController.swift in Sources */,
+				8FC203C22283214000847085 /* CarService.swift in Sources */,
 				8F86467D227A214A00FE204E /* DetailViewController.swift in Sources */,
 				8FC6A0E8227A3A0A00236FE0 /* APIClient.swift in Sources */,
 				8F86466B227A193000FE204E /* BaseListView.swift in Sources */,
 				8F7509D2227A2F4B000CA646 /* MainNavigationController.swift in Sources */,
 				8F86466F227A1B4A00FE204E /* Car.swift in Sources */,
+				8F3E1E672281F5E90053D4A5 /* DataManager.swift in Sources */,
 				8F864681227A215500FE204E /* DetailImageViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -472,12 +504,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				8F864658227A186800FE204E /* FlippActivityUITests.swift in Sources */,
+				8FC203C1228311C900847085 /* CarDetails.swift in Sources */,
+				8FBF35A3228353EF0023E07F /* MainCell.swift in Sources */,
 				8F86467A227A1CC900FE204E /* BaseViewController.swift in Sources */,
+				8FC203C32283214000847085 /* CarService.swift in Sources */,
 				8F86467E227A214A00FE204E /* DetailViewController.swift in Sources */,
 				8FC6A0E9227A3A0A00236FE0 /* APIClient.swift in Sources */,
 				8F86466C227A193000FE204E /* BaseListView.swift in Sources */,
 				8F7509D3227A2F4B000CA646 /* MainNavigationController.swift in Sources */,
 				8F864670227A1B4A00FE204E /* Car.swift in Sources */,
+				8F3E1E682281F5E90053D4A5 /* DataManager.swift in Sources */,
 				8F864682227A215500FE204E /* DetailImageViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
